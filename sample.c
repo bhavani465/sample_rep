@@ -3,15 +3,17 @@
 void main()
 
 {
-
+	int data=11;
 	fun_sample();
-	printf("hellow");
+	printf("hellow\n");
+	ispalindrom(data);
+	isprime(data);
 }
 
 
 void fun_sample()
 {
 
-	printf ("Hellow world");
+	printf ("Hellow world\n");
 
 }
