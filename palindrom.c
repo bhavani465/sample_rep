@@ -2,6 +2,7 @@
 void main()
 {
 	//this is palindrom program
+	//this is my second edit
 	int data=2343,rev=0,temp;
 	temp=data;
 	while(temp)
