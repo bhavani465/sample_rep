@@ -25,4 +25,5 @@ else:
     exe_cmd("git pull origin master --allow-unrelated-histories")
 
 exe_cmd("git log>g_log.txt")
-#exe_cmd("git push https://github.com/bhavani465/sample_rep.git master")
+chdir("C:/Users/barrambelly/PycharmProjects/assignment/Python_adb")
+exe_cmd("git push https://github.com/bhavani465/sample_rep.git master")
