@@ -1,6 +1,7 @@
 #include<stdio.h>
 void main()
 {
+	//this is palindrom program
 	int data=2343,rev=0,temp;
 	temp=data;
 	while(temp)
