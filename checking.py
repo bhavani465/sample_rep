@@ -11,7 +11,7 @@ def git_clone(repo_url):
     cmd = 'git clone ' + repo_url
     execute_shell_command(cmd)
 def git_pull():
-    cmd='git pull origin master'
+    cmd='git pull origin master --allow-unrelated-histories'
     execute_shell_command(cmd)
 s1=" https://github.com/mpigelati/Python_adb"
 

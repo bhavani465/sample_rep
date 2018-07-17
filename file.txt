@@ -1,4 +1,0 @@
-from itertools import combinations
-l=['a','b','c']
-print(combinations(l,3))
-/*file copy example....*/
